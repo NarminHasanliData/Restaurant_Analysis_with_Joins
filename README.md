@@ -18,7 +18,7 @@ SELECT *
 FROM Restaurants_Analysis..cities
 
 SELECT City, 
-		COUNT(City) AS OrderCount
+	COUNT(City) AS OrderCount
 FROM Restaurants_Analysis..monthly_member_totals
 GROUP BY city
 ORDER BY OrderCount DESC
